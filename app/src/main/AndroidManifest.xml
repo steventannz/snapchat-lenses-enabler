@@ -9,7 +9,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Changes build values to match the Samsung Galaxy S6 Edge to enable Snapchat's lenses feature." />
+            android:value="Changes build values to match the LG G4 (LG-H810) to enable Snapchat's lenses feature." />
         <meta-data
             android:name="xposedminversion"
             android:value="30" />

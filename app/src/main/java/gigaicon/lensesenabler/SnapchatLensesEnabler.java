@@ -17,13 +17,9 @@ public class SnapchatLensesEnabler implements IXposedHookLoadPackage {
             return;
 
         try {
-            Field manufacturer = Build.class.getField("MANUFACTURER");
-            manufacturer.setAccessible(true);
-            manufacturer.set(null, "samsung");
-
             Field model = Build.class.getField("MODEL");
             model.setAccessible(true);
-            model.set(null, "SM-G925T");
+            model.set(null, "LG-H810");
         } catch (Throwable e) {
             Log.d(TAG, "Failed to set build values");
         }
